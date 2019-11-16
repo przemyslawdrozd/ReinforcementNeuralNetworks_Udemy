@@ -6,7 +6,7 @@ public class Constants {
     }
 
     // reward in non-terminal states (used to initialize r[][])
-    public static double STATE_REWARD = 0;
+    public static double STATE_REWARD = -0.1;
     // gamma discount factor: how to deal with future rewards
     public static double GAMMA = 0.99;
     // want to make the system stochastic: with 80% probability we go where we want

@@ -4,5 +4,8 @@ public class Test {
 
     public static void main(String[] args) {
 
+        MarkovProcessValueIteration markovProcessValueIteration = new MarkovProcessValueIteration();
+        markovProcessValueIteration.run();
+
     }
 }
